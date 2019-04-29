@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: bold;
+	background: black;
+	vertical-align: middle;
+	text-align: center;
+	height: 100%;
+}
+header{
+	padding-top: 10px;
+	height: 7vh;
+	background: PaleGreen;
+}
+header a{
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+}
+header span{
+	float: right;
+}
+nav{
+	height: 3vh;
+	background: LightGreen;
+}
+aside{
+	width: 30%;
+	height: 80vh;
+	float: left;
+	background: green;
+}
+.push {
+	list-style: none;
+	float:left;
+}
+input[type="button"]{
+	border: none; 
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 16pt;
+	white-space: nowrap;
+}
+input[type="button"]:hover{
+	cursor: pointer;
+}
+main{
+	width: 100%;
+	height: 80vh;
+	background: white;
+}
+iframe{
+	width: 70%;
+	height: 75vh;
+	float: right;
+	border: none;
+	marginwidth: none;
+}
+footer{
+	height: 10vh;
+	background: grey;
+}
